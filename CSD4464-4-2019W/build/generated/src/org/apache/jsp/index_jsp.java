@@ -48,7 +48,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
+      out.write("        <title>STAR</title>\n");
+      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n");
       out.write("    </head>\n");
       out.write("<body>\n");
       out.write("<h2>Welcome to <strong>IFPWAFCAD</strong>, the International Former\n");
@@ -64,8 +65,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("</thead>\n");
       out.write("<tbody>\n");
       out.write("<tr>\n");
-      out.write("<td>To view the contact details of an IFPWAFCAD certified former\n");
-      out.write("professional wrestler in your area, select a subject below:</td>\n");
+      out.write("<td>To check enrollments, select a Subject from this drop down list:</td>\n");
       out.write("</tr>\n");
       out.write("<tr>\n");
       out.write("<td>\n");
