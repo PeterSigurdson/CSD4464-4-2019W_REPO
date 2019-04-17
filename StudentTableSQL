@@ -1,0 +1,19 @@
+create student table
+
+CREATE TABLE students(
+   studentID varchar(10) NOT NULL,
+   studentName VARCHAR (20)     NOT NULL,
+   studentProgramGroup VARCHAR (20)     NOT NULL,
+   GPA   DECIMAL (4, 2),       
+   PRIMARY KEY (studentID)
+);
+insert into students values ("101", "Bob", "Group1", 3.5);
+insert into students values ("992", "Mary", "Group2", 3.7);
+insert into students values ("805", "Laura", "Group5", 3);
+insert into students values ("435", "Mike", "Group4", 2.8);
+insert into students values ("832", "Joel", "Group2", 3.1);
+insert into students values ("119", "Joel", "Group2", 3.7);
+
+ALTER TABLE students ADD StudentID varchar(10);
+ALTER TABLE students ADD StudentName varchar(10);
+ALTER TABLE students ADD StudentProgramGroup varchar(10);
