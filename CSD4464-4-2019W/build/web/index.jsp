@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>STAR</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 <body>
 <h2>Welcome to <strong>IFPWAFCAD</strong>, the International Former

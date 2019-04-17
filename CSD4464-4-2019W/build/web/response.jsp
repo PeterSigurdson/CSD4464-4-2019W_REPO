@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>STAR Database</title>     
     </head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
     <body>
         <h1>STAR</h1>
         
